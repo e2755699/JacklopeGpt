@@ -1,0 +1,578 @@
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AX32A",
+   "owner": "土耳其",
+   "severity": "中等",
+   "location": "WAT",
+   "productionLine": "SKD物料调拨",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "10PCS",
+   "defectiveRate": "10/130",
+   "productStatus": "與客戶溝通確認不良現象",
+   "usageTime": "DOA",
+   "issueDate": "2024/1/10",
+   "failureSymptom": "RFID 金屬鈕扣缺料现象10PCS",
+   "emergencyContainment": [
+      "將不良PCBA寄回廠內分析不良原因。",
+      "庫存抽查確認與樣品一致，試裝配卡扣正常。"
+   ],
+   "rootCauseAnalysis": [
+      "確認WSSMODULE091-R00是SKD物料調撥，沒有經過製程生產檢驗，初步判定材料來料異常導致。",
+      "確認樣品材料，卡扣本身就帶一個缺口，樣品卡扣公母座試裝結果較緊正常，可以聽到緊扣聲。",
+      "供應商根據圖片分析，此縫隙為伸縮縫，是插座有彈性的必要工藝，0.2mm以下為合格，是為保證插座與插頭有良好接合的必要手段。按壓插頭接合時會縫隙減小，插上後恢復正常縫隙。如果拔出插頭方法不正確，有可能造成縫隙加大。這時如果插上插頭，縫隙依然會恢復為正常尺寸範圍以內；",
+      "此插座的圓形部分，是銅板冷壓彎折的，有縫隙是正常現象，因為任何機械加工都有誤差容許範圍。最主要的，這個縫隙的加大，不會對電氣性能有任何影響。",
+      "此物料包裝方式如圖，PCBA為豎向擺放並且有氣泡袋分小盒包裝，可以排除包裝方式風險；",
+      "根据客户传回照片确认只是缺口而不是缺料，符合分析逻辑，确认为良品。"
+   ],
+   "correctiveAction": {
+      "temporaryAction": "NA",
+      "longTermAction": "NA"
+   },
+   "followUp": "待辦或效果追蹤"
+}
+
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AX32A",
+   "owner": "土耳其",
+   "severity": "中等",
+   "location": "WAT",
+   "productionLine": "SKD物料调拨",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "4PCS",
+   "defectiveRate": "4/171",
+   "productStatus": "與客戶溝通確認不良現象",
+   "usageTime": "DOA",
+   "issueDate": "2024/1/10",
+   "failureSymptom": [
+      "部分螺絲孔內有斷裂的螺絲",
+      "由於螺絲孔中有毛刺，無法安裝螺絲"
+   ],
+   "emergencyContainment": [
+      "將不良PCBA寄回廠內分析不良原因。",
+      "庫存确认。"
+   ],
+   "rootCauseAnalysis": [
+      "確認W6304D130002-RA1是SKD物料調撥，沒有經過製程生產檢驗，初步判定材料來料異常導致。",
+      "確認ZCM IQC入料檢驗按照入料抽樣計畫進行抽檢，且使用針規確認螺絲孔，包含廠商生產也有使用針規進行檢驗作業，沒有使用螺絲去確認螺絲孔，且螺絲孔有毛刺針規時無法插入。",
+      "確認生產使用螺絲扭力要求為4.5kgf.com±0.5Kgf.com，锁螺丝时螺丝与背板需成90°垂直才能正常鎖進去。===PQE楊亭。",
+      "驗證按照1🡪2🡪3🡪4🡪5🡪6不進行預鎖定位直接依次鎖緊，當1到5顆螺絲有輕微偏移，最後一顆螺絲有幾率（1/8）出現無法鎖進去和縮進去但是無法鎖到位且很難退出。",
+      "驗證按照1🡪3🡪2🡪4🡪5🡪6進行定位預鎖，1🡪2🡪3🡪4🡪5🡪6鎖緊，重複鎖20次沒有發現螺絲無法鎖入現象。",
+      "確認發貨配件包內含M3十字螺絲和M4梅花螺絲，M4梅花螺絲表面顏色為黑色暫時排除客戶使用錯螺絲。"
+   ],
+   "correctiveAction": {
+      "shortTermAction": [
+         "安排廠商補交物料給客戶",
+         "要求廠商對庫存品（廠端+供應商倉庫）進行重工"
+      ],
+      "longTermAction": [
+         "廠端IQC對廠商來料增加抽檢比例",
+         "要求廠商對螺柱部分增加100%的適配工站",
+         "優化客戶作業方式先進行對角螺絲預鎖定位，在依次鎖緊。同步更新SOP給客戶"
+      ]
+   },
+   "followUp": "待辦或效果追蹤"
+}
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AW32",
+   "owner": "WAT",
+   "severity": "中等",
+   "location": "WTA",
+   "productionLine": "L201",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "1PCS",
+   "defectiveRate": "/",
+   "productStatus": "現場確認不良現象",
+   "usageTime": "DOA",
+   "issueDate": "2023/11/3",
+   "failureSymptom": ["CSU插槽異常, CUS PCBA的PIN與主機板PIN腳不匹配。"],
+   "emergencyContainment": [
+      "現場確認不良現象",
+      "不良品寄回廠內分析不良原因。",
+      "廠內已完成生產半成品進行100%完全插入實插動作。"
+   ],
+   "rootCauseAnalysis": [
+      "發生原因分析:",
+      "根據回饋SN確認此臺生產時間為2023年7月17號。",
+      "收到不良進行實插確認只能查到1/3處就無法在往下插，拆解確認發現段子內部PIN有變形現象。",
+      "在显微镜下观察发现在端子内部PIN针两端有淡黄色异物。",
+      "使用紫光灯确认异物时发现在紫光灯照射下异物呈现为蓝色，确认为三防漆。",
+      "排查制程確認三防漆噴塗作業三防漆噴塗到CN1/CN2底部，且三防漆具有流動爬升的特性導致三防膠流動到CN1/CN2的孔裡（潮汐原理），導致此類異常發生。",
+      "流出原因分析：",
+      "排查制程生產確認在FUT和FT測試均有對插端子，但是對插1/3端子內部還是接觸，測試OK導致此類異常沒有被攔截。"
+   ],
+   "correctiveAction": {
+      "longTermAction": [
+         "優化噴膠機噴嘴到CN1和CN2的距離控制在5mm,同步標準化(SOP/QC/ PLAN)。",
+         "優化工藝流程,後續先噴錫面在零件面.同步標準化(SOP/QC /PLAN)。",
+         "變更三防漆,使用急速干的三防漆,(由原來七天才能完全乾的的變更為24H干的三防漆).===9/1 ECRN變更完。",
+         "生技優化制程測試工序治具，在測試站增加限位治具，當端子對插不到位（未完全插入），測試無法觸動。===生技申請治具中 12/M 完成導入。"
+      ]
+   },
+   "followUp": "待辦或效果追蹤"
+}
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AX32A",
+   "owner": "土耳其",
+   "severity": "中等",
+   "location": "WAT",
+   "productionLine": "SKD物料调拨",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "4PCS",
+   "defectiveRate": "4/180",
+   "productStatus": "更换枪线给客户",
+   "usageTime": "DOA",
+   "issueDate": "2024/1/10",
+   "failureSymptom": ["有幾條槍線總是在一定的區域槍皮裂開。"],
+   "emergencyContainment": [
+      "將不良槍線回饋供應商分析不良原因。",
+      "庫存1200pcs全檢後無不良。"
+   ],
+   "rootCauseAnalysis": [
+      "確認W360000P0001-RA1是SKD物料調撥，沒有經過製程生產檢驗，初步判定材料來料異常導致。",
+      "移除電纜上的缺陷部件時，尺寸约为 266,53 毫米（蓝色电缆 - 电线中性N），但根据图纸 130 +15/-0。",
+      "根據不良品圖片，線纜切多的一處位於剝皮處後段，根據客戶的確認資訊，4條不良，切口處的位置均為一致。另外，觀察切口平整，均勻，可判定為裁線剝皮機所切。",
+      "5WHY分析：",
+      "產生原因：設備操作介面沒有鎖定密碼管控，員工誤把滑剝中的第二點打開，導致多裁一刀；",
+      "流出原因：因為多切一刀處沒有剝皮，切口很小，員工在外觀檢查時沒有發現；"
+   ],
+   "correctiveAction": {
+      "temporaryAction": [
+         "供應商拿良品槍線按實際不良數給客戶更換；",
+         "庫存的1200pcs已返工處理，無不良；"
+      ],
+      "longTermAction": [
+         "自動裁線機增加密碼管控，按照員工、技術員、生產管理許可權 設定了密碼，並進行鎖屏。---2024/1/12完成",
+         "更新SOP，裁切工位和外觀工位增加員工檢查線材兩端有無多餘切口的現象。---2024/1/16完成",
+         "對員工落實了培訓，槍線槍頭及槍尾端增加員工自檢、互檢線纜是否有多餘切口現象。並在裁線工位增加了該不良履歷。---2024/1/15完成"
+      ]
+   },
+   "followUp": "待辦或效果追蹤"
+}
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AX32A",
+   "owner": "土耳其",
+   "severity": "中等",
+   "location": "WAT",
+   "productionLine": "SKD物料调拨",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "14PCS",
+   "defectiveRate": "4/3200",
+   "productStatus": "與客戶溝通確認不良現象",
+   "usageTime": "DOA",
+   "issueDate": "2024/1/10",
+   "failureSymptom": ["AC端子銅排變形，無法組裝。"],
+   "emergencyContainment": [
+      "將不良PCBA寄回廠內分析不良原因。",
+      "库存确认。"
+   ],
+   "rootCauseAnalysis": [
+      "根據客戶傳回圖片確認1/2號銅牌變型狀態為S型，3/4/5/6號為T字型張開模式，1/2號銅牌變型狀態為S型初步確認制程生產出現異常之後拆下來導致，請客戶排查制程確認組裝流程。",
+      "T字型張開模式，排查包裝運輸方式，已經要求SQE通知要求供應商提供包裝可靠性測試報告，評估異常可能為堆碼下層受重壓導致變形。"
+   ]
+}
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AX32A",
+   "owner": "土耳其",
+   "severity": "中等",
+   "location": "WAT",
+   "productionLine": "SKD物料调拨",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "8PCS",
+   "defectiveRate": "8/180",
+   "productStatus": "與客戶溝通確認不良現象",
+   "usageTime": "DOA",
+   "issueDate": "2024/1/10",
+   "failureSymptom": ["槍線固定夾片的螺絲孔有毛刺，導致無法鎖入螺絲。"],
+   "emergencyContainment": [
+      "將不良PCBA寄回廠內分析不良原因。",
+      "库存确认。"
+   ],
+   "rootCauseAnalysis": [
+      "確認W6364D130007-RA2是SKD物料調撥，沒有經過製程生產檢驗。",
+      "確認材料結構沒有發現螺絲孔有毛刺，導致無法鎖入螺絲現象。",
+      "確認槍線莢材質為SUS-304材質，材質特性硬度強，比較脆，在螺母形成過程中不會產生毛刺。",
+      "確認入料檢驗均有使用針規檢查螺絲孔，當有毛刺時針規無法插入。",
+      "鎖槍線莢注意事項：M4X18螺絲*4PCS扭力：12+/-0.5Kgf.cm鎖附順序：（1→2→3→4）定位（1→2→3→4→1→2）鎖緊，且螺絲與槍線夾呈90°，相同失效现象为螺丝打歪导致。"
+   ]
+}
+
+{
+   "manufacturer": "ZCM",
+   "partNumber": "AC CNS",
+   "owner": "美國",
+   "severity": "中等",
+   "location": "PHA",
+   "productionLine": "L201",
+   "defectiveStation": "客戶端",
+   "defectiveQuantity": "1PCS",
+   "defectiveRate": "/",
+   "productStatus": "將不良品平衡器更換為大馬力繩的",
+   "usageTime": "保固內",
+   "issueDate": "2024/1/15",
+   "failureSymptom": [],
+   "emergencyContainment": [
+      "將不良品平衡器更換為大馬力繩的。",
+      "廠內分析異常原因。"
+   ],
+   "rootCauseAnalysis": [
+      "確認在2023年9月分析平衡器已全數導入大馬力繩，確認鋼絲繩在與客戶這樣不正常使用下只能堅持30-50次線皮就會出現脫落現象且與鋼絲繩摩擦地方烤漆已經被磨掉，有生鏽風險。",
+      "大馬力繩在與客戶這樣不正常使用下能堅持多久，在200次左右烤漆被磨損漏出底漆，但是大馬力繩只是變形沒有任何破皮現象，在測試持續進行中預計1/23號完成。"
+   ]
+}
+
+{
+   "issueDescription": "RS485 通訊LAN缺少終端電阻",
+   "customer": "日本",
+   "severity": "中等",
+   "model": "AWSJ60000101ES-RW",
+   "productStatus": "將這台安裝在用戶端最後一台",
+   "location": "ENEOS",
+   "defectiveQuantity": "1pcs",
+   "usageTime": "保固內",
+   "dueDate": "2024/1/15",
+   "responsibleUnit": "ZCM",
+   "rootCause": "處理進度",
+   "details": [
+      {
+         "modelName": "AWSJ60000101ES",
+         "serialNumber": "C2315A090A1",
+         "failureSymptom": "RS485 通訊LAN缺少終端電阻。",
+         "workStep": "WK03",
+         "progress": [
+            "RS485 通訊LAN缺少終端電阻，初步排查確認此顆電阻來料就已經裝上去的，只是在制程組裝作業要將此顆電阻掰來朝外部，便於用戶端安裝時做後一台選用剪掉。",
+            "確認制程和來料沒有對此顆電阻性能進行檢查，只是在總檢確認是否有在。",
+            "對不良圖示進行觀察發現少電阻部分無凸起、無斷口，套管包裝完好，如是生產撞斷、剪斷等情況，會有PIN腳斷口面及凸起點，初步確認是材料異常導致。"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "AXLU191001D1P0-RW 充電手把結冰",
+   "customer": "美國",
+   "severity": "中等",
+   "model": "AXLU191001D1P0-RW",
+   "productStatus": "",
+   "location": "PHA",
+   "defectiveQuantity": "1pcs",
+   "usageTime": "保固內",
+   "dueDate": "2024/1/15",
+   "responsibleUnit": "ZCM",
+   "rootCause": "處理進度",
+   "details": [
+      {
+         "modelName": "AXLU191001D1P0-RW",
+         "serialNumber": "V2315A244A0",
+         "failureSymptom": "充電手把結冰",
+         "workStep": "WK03",
+         "progress": [
+            "已模擬再現，回饋供應商(日新)分析，1/23預計與供應商開會"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "EVOASIS 雲林站按鈕異常背板接觸不良",
+   "customer": "源點",
+   "severity": "- Cri",
+   "model": "DSYC182T0T",
+   "productStatus": "線材重新插拔後復機",
+   "location": "雲林",
+   "defectiveQuantity": "1 pc",
+   "usageTime": "保固中(T2338A010A1)",
+   "dueDate": "",
+   "responsibleUnit": "",
+   "rootCause": "處理進度",
+   "details": [
+      {
+         "workStep": "W02",
+         "progress": [
+            "重新整線插拔後 復電恢復正常",
+            "確認線材端子外觀，存在擴孔現象造成與公PIN接觸不良"
+         ]
+      },
+      {
+         "workStep": "W03",
+         "progress": [
+            "廠內電測治具導入(左下圖)",
+            "線材供應商-晟祥回復廠內檢測以治具(中下圖)進行電測",
+            "目前詢問供應商治具上PIN針尺寸，待回覆"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "ZCM DW30 CNS - Pedestal缺少零件和漏裝配件",
+   "customer": "美國",
+   "severity": "中等",
+   "model": "DW30 CNS",
+   "productStatus": "待補貨給客人安裝",
+   "location": "PHA",
+   "defectiveQuantity": "3PCS",
+   "usageTime": "DOA",
+   "issueDate": "2024/15",
+   "failureSymptoms": [
+      "拆箱DW30 pedestal的時候，發現共有兩台pedestal缺少中間突出的那塊part。",
+      "KITPSDWPH01-RW漏裝配件*1PCS。"
+   ],
+   "emergencyContainment": [
+      "立即補貨給客人安裝。",
+      "廠內分析不良原因。"
+   ],
+   "rootCause": "處理進度",
+   "detailedAnalysis": [
+      {
+         "rootCauseCategory": "針對立柱中間缺件",
+         "analysisSteps": [
+            "確認製程生產時中間那塊part是來料就是已經安裝在立柱上的，製程包裝不需要進行拆卸重新安裝，初步確認為來料異常導致。"
+         ]
+      },
+      {
+         "rootCauseCategory": "針對漏裝配件部分",
+         "analysisSteps": [
+            "確認此配件需要在製程單獨包裝並放入立柱底部與立柱一起打包出貨，排查製程生產時已經發現此工單生產完成發現多出1PCS配件，當時有反饋至CPM但是沒有做處置。===製程作業漏失。"
+         ]
+      },
+      {
+         "rootCauseCategory": "針對以上異常流出原因",
+         "analysisSteps": [
+            "生產包裝流程不完善，沒有檢查機制，造成異常在廠內沒有被攔截下來。",
+            "針對以上異常確認所有DC系列CNS均沒有SN造成無法增加MES進行管控。"
+         ]
+      }
+   ],
+   "correctiveActions": [
+      {
+         "actionType": "短期對策",
+         "actions": [
+            "針對以上異常增加總檢檢驗項目包裝作業前需確認給器件是否異常，確認無誤之後在進行裝木箱動作。===生技/製造。",
+            "針對以上流出原因對策優化制程作業方式。===生技/PQE。（已經完成）。"
+         ]
+      },
+      {
+         "actionType": "長期對策",
+         "actions": [
+            "針對材料異常部分，回饋供應商分析原因及後續對策。===SQE廖永華。預計完成時間1月19號。",
+            "廠內漏放配件部分增加整裝增加SN進行MES綁定管控（對配件進行綁定管控），規避此類異常流出。===PM李溫育/RDviki/生技鄭曉嬌，預計完成時間1月19號（與RD/PM討論中，連線會議1/16號討論）。"
+         ]
+      }
+   ],
+   "followUpTasks": "待辦或效果追蹤"
+}
+
+{
+   "issueDescription": "成運首都(南雅)無法充電011014",
+   "customer": "成運",
+   "severity": "輕微",
+   "model": "DSYC152U00D5PH-RW",
+   "productStatus": "測試中",
+   "location": "成運首都",
+   "defectiveQuantity": "2pcs",
+   "usageTime": "保固內",
+   "dueDate": "N2042A001A0",
+   "owner": "Tom_Wu",
+   "rootCause": "處理進度",
+   "detailedAnalysis": [
+      {
+         "action": "FAE線廠更換Relay(K1,K2)已讓能使用",
+         "status": "已完成"
+      },
+      {
+         "action": "不良Relay寄回分析",
+         "status": "進行中"
+      }
+   ],
+   "defectiveTestingPlan": [
+      {
+         "week": "w49",
+         "actions": [
+            "送電12V後開關20次檢測，主接點/副接點皆正常"
+         ]
+      },
+      {
+         "week": "WK01",
+         "actions": [
+            "進行高溫環境溫度阻值測試，開關20次檢測"
+         ]
+      },
+      {
+         "week": "WK02",
+         "actions": [
+            "打Hi-POT進行主接點間及主接點及線圈間測試",
+            "85°環境溫度測試"
+         ]
+      },
+      {
+         "week": "WK03",
+         "actions": [
+            "常溫以及85°環境溫度測試搭接、釋放時間: 退回品的釋放時間82.6ms是規格8.5ms的10倍。",
+            "比較新品的規格、與軟體RD確認此項時間是否會發生異常告警"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "RC-01HW RC板異常無法充電(11014)(FA-EN231218)",
+   "customer": "UU",
+   "severity": "輕微",
+   "model": "DDYC362U0VE2UU",
+   "productStatus": "營運中",
+   "location": "UU 花蓮",
+   "defectiveQuantity": 1,
+   "usageTime": "保固內(N2234A001A1)",
+   "dueDate": "2024/01/30",
+   "owner": "硬體",
+   "rootCause": "處理進度",
+   "detailedAnalysis": [
+      {
+         "action": "FAE現場更換RC板已讓能使用",
+         "status": "已完成"
+      },
+      {
+         "action": "不良RC板寄回分析，(011014   CCS輸出繼電器驅動故障)",
+         "status": "進行中"
+      }
+   ],
+   "testingPlan": [
+      {
+         "week": "2023/WK51",
+         "actions": [
+            "12/20 尚未上樁檢測"
+         ]
+      },
+      {
+         "week": "2023/WK52",
+         "actions": [
+            "12/27 尚未上樁檢測"
+         ]
+      },
+      {
+         "week": "2024/WK01",
+         "actions": [
+            "01/03 上樁檢測，模擬案場雙槍測試再現測試",
+            "左槍：CCS1  右槍：CCS2 各上槍線測試 3分鐘，無異常"
+         ]
+      },
+      {
+         "week": "2024/WK01",
+         "actions": [
+            "01/10 確認FAE(鍾才亮)處理狀況如下：",
+            "2023/11/23 FAE確認該樁11月有多次11014異常，多次測試無法再現異常，故提供log檔與RD確認後，是relay board的問題",
+            "故更換RC板。FAE 於12/29還有再次確認還是無法重現11014 relay driving fault的異常，所以RC 板的異常是隨機發生，RC板不一定故障。"
+         ]
+      },
+      {
+         "week": "2024/WK03",
+         "actions": [
+            "將RC板上樁，RC板晶片以吹風機加熱（測試時間15min/持續溫度70~80度）進行充電"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "21.5’ 群創LCM螢幕黑屏&觸控不良",
+   "customer": "保時捷/Zerova RD",
+   "severity": "Cri",
+   "model": "DDYC36200VEFPS-RW",
+   "productStatus": "運營中",
+   "locations": ["台中霧峰", "台北新店", "林口總部"],
+   "defectiveQuantity": 6,
+   "usageTime": "DOA",
+   "dueDate": "",
+   "owner": "",
+   "rootCause": "處理進度",
+   "detailedAnalysis": [
+      {
+         "issue": "黑屏",
+         "cause": "圓美所使用的SOC芯片防護性不足，不堪使用者使用導致"
+      },
+      {
+         "issue": "觸控失效",
+         "cause": "Touch 被異常誤動作導致失效"
+      }
+   ],
+   "testingPlan": [
+      {
+         "week": "W52",
+         "actions": [
+            "圓美針對台中霧峰提出8D報告，因為SOC焊接不良導致接觸不良",
+            "後續生產將加強老化測試(12hr->24hr)以及增設振動測試，避免後續運輸/組裝震動導致接觸不良",
+            "新增X-RAY檢測",
+            "圓美針對台中霧峰提出優化後軟體，經RD Simon測試驗證完成"
+         ]
+      },
+      {
+         "week": "W02",
+         "actions": [
+            "圓美針對林口總部及台南總部提出8D報告",
+            "推測主因為SOC芯片防護性不足，無法承受使用者使用所導致",
+            "重工方向/工具待群創/圓美提出",
+            "風險批119 pcs調查中，重工方向評估是否更換E版本SOC芯片或優化軟體進行Cover"
+         ]
+      },
+      {
+         "week": "W03",
+         "actions": [
+            "針對台北新店案場所發生之觸控不良",
+            "供應商解析為FPC排線接觸不良，經重新插拔後異常已排除",
+            "短期對策將優化軟體進行Cover，正式版預1/19圓美提出",
+            "長期對策為FPC排線新增膠帶固定排線，避免外力導致排線與PCBA接觸不良",
+            "預定於1/23協同FAE/圓美/群創/MQA/SOE至林口總部確認對策有效性"
+         ]
+      }
+   ]
+}
+
+{
+   "issueDescription": "21.5“ LCM 黑屏",
+   "customer": "保時捷",
+   "severity": "嚴重",
+   "model": "DDYC36200VEFPS-RW",
+   "productStatus": "21.5“ LCM黑屏",
+   "location": "保時捷_中部霧峰",
+   "defectiveQuantity": 1,
+   "rootCause": "處理進度",
+   "detailedAnalysis": [
+      {
+         "situation": "LCM異常當時狀況",
+         "details": "黑屏"
+      },
+      {
+         "situation": "廠內LCM異常分析",
+         "details": "實際插電，可以啟動，無法點亮螢幕。"
+      },
+      {
+         "situation": "後續進度",
+         "details": "寄回供應商做維修，供應商已經將BGA異常部位，重新過爐，屏幕可正常作動。"
+      }
+   ],
+   "temporaryCountermeasure": "後續出貨前加振動臺測試和老化時間加長以確保品質。",
+   "longTermCountermeasure": "後續出貨前加振動臺測試和老化時間加長以確保品質。SMT 貼片需要增加X-ray檢測，確保焊接ok。",
+   "sqaComplaintNumber": "FA-EP230908",
+   "progress": {
+      "WK51": [
+         "寄回給供應商做分析。"
+      ],
+      "2024 WK1": [
+         "供應商已提供暫時/長期對策。"
+      ],
+      "2024 WK2": [
+         "根據IC(SOC)寄回原廠分析，原廠建議使用E版SOC，下批交貨會使用E版SOC。",
+         "於本週星期4/5 討論目前庫存品是否變更重工。"
+      ]
+   }
+}
