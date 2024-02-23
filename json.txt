@@ -231,70 +231,65 @@
 }
 
 {
-   "issueDescription": "RS485 通訊LAN缺少終端電阻",
-   "customer": "日本",
+   "owner": "日本",
    "severity": "中等",
    "model": "AWSJ60000101ES-RW",
    "productStatus": "將這台安裝在用戶端最後一台",
    "location": "ENEOS",
    "defectiveQuantity": "1pcs",
    "usageTime": "保固內",
-   "dueDate": "2024/1/15",
-   "responsibleUnit": "ZCM",
-   "rootCause": "處理進度",
-   "details": [
-      {
-         "modelName": "AWSJ60000101ES",
-         "serialNumber": "C2315A090A1",
-         "failureSymptom": "RS485 通訊LAN缺少終端電阻。",
-         "workStep": "WK03",
-         "progress": [
-            "RS485 通訊LAN缺少終端電阻，初步排查確認此顆電阻來料就已經裝上去的，只是在制程組裝作業要將此顆電阻掰來朝外部，便於用戶端安裝時做後一台選用剪掉。",
-            "確認制程和來料沒有對此顆電阻性能進行檢查，只是在總檢確認是否有在。",
-            "對不良圖示進行觀察發現少電阻部分無凸起、無斷口，套管包裝完好，如是生產撞斷、剪斷等情況，會有PIN腳斷口面及凸起點，初步確認是材料異常導致。"
-         ]
-      }
+   "issueDate": "2024/1/15",
+   "manufacturer": "ZCM",
+   "modelName": "AWSJ60000101ES",
+   "serialNumber": "C2315A090A1",
+   "failureSymptom": "RS485 通訊LAN缺少終端電阻。",
+      "rootCauseAnalysis": [
+   {
+      "workStep": "WK03",
+      "progress": [
+         "RS485 通訊LAN缺少終端電阻，初步排查確認此顆電阻來料就已經裝上去的，只是在制程組裝作業要將此顆電阻掰來朝外部，便於用戶端安裝時做後一台選用剪掉。",
+         "確認制程和來料沒有對此顆電阻性能進行檢查，只是在總檢確認是否有在。",
+         "對不良圖示進行觀察發現少電阻部分無凸起、無斷口，套管包裝完好，如是生產撞斷、剪斷等情況，會有PIN腳斷口面及凸起點，初步確認是材料異常導致。"
+      ]
+   }
    ]
 }
 
 {
-   "issueDescription": "AXLU191001D1P0-RW 充電手把結冰",
-   "customer": "美國",
+   "owner": "美國",
    "severity": "中等",
    "model": "AXLU191001D1P0-RW",
    "productStatus": "",
    "location": "PHA",
    "defectiveQuantity": "1pcs",
    "usageTime": "保固內",
-   "dueDate": "2024/1/15",
-   "responsibleUnit": "ZCM",
-   "rootCause": "處理進度",
-   "details": [
-      {
-         "modelName": "AXLU191001D1P0-RW",
-         "serialNumber": "V2315A244A0",
-         "failureSymptom": "充電手把結冰",
-         "workStep": "WK03",
-         "progress": [
-            "已模擬再現，回饋供應商(日新)分析，1/23預計與供應商開會"
-         ]
-      }
+   "issueDate": "2024/1/15",
+   "manufacturer": "ZCM",
+   "modelName": "AXLU191001D1P0-RW",
+   "serialNumber": "V2315A244A0",
+   "failureSymptom": "充電手把結冰",
+   "rootCauseAnalysis": [
+   {
+      "workStep": "WK03",
+      "progress": [
+         "已模擬再現，回饋供應商(日新)分析，1/23預計與供應商開會"
+      ]
+   }
    ]
 }
 
 {
    "issueDescription": "EVOASIS 雲林站按鈕異常背板接觸不良",
-   "customer": "源點",
+   "owner": "源點",
    "severity": "- Cri",
    "model": "DSYC182T0T",
    "productStatus": "線材重新插拔後復機",
    "location": "雲林",
    "defectiveQuantity": "1 pc",
    "usageTime": "保固中(T2338A010A1)",
-   "dueDate": "",
-   "responsibleUnit": "",
-   "rootCause": "處理進度",
-   "details": [
+   "issueDate": "",
+   "manufacturer": "",
+   "rootCauseAnalysis": [
       {
          "workStep": "W02",
          "progress": [
@@ -315,7 +310,8 @@
 
 {
    "issueDescription": "ZCM DW30 CNS - Pedestal缺少零件和漏裝配件",
-   "customer": "美國",
+   "owner": "美國",
+   "manufacturer": "ZCM"
    "severity": "中等",
    "model": "DW30 CNS",
    "productStatus": "待補貨給客人安裝",
@@ -323,7 +319,7 @@
    "defectiveQuantity": "3PCS",
    "usageTime": "DOA",
    "issueDate": "2024/15",
-   "failureSymptoms": [
+   "failureSymptom": [
       "拆箱DW30 pedestal的時候，發現共有兩台pedestal缺少中間突出的那塊part。",
       "KITPSDWPH01-RW漏裝配件*1PCS。"
    ],
@@ -331,8 +327,7 @@
       "立即補貨給客人安裝。",
       "廠內分析不良原因。"
    ],
-   "rootCause": "處理進度",
-   "detailedAnalysis": [
+   "rootCauseAnalysis": [
       {
          "rootCauseCategory": "針對立柱中間缺件",
          "analysisSteps": [
@@ -373,18 +368,16 @@
 }
 
 {
-   "issueDescription": "成運首都(南雅)無法充電011014",
-   "customer": "成運",
+   "failureSymptom": "無法充電011014",
    "severity": "輕微",
    "model": "DSYC152U00D5PH-RW",
    "productStatus": "測試中",
    "location": "成運首都",
    "defectiveQuantity": "2pcs",
    "usageTime": "保固內",
-   "dueDate": "N2042A001A0",
-   "owner": "Tom_Wu",
-   "rootCause": "處理進度",
-   "detailedAnalysis": [
+   "issueDate": "N2042A001A0",
+   "owner": "成運",
+   "rootCauseAnalysis": [
       {
          "action": "FAE線廠更換Relay(K1,K2)已讓能使用",
          "status": "已完成"
@@ -426,7 +419,7 @@
 
 {
    "issueDescription": "RC-01HW RC板異常無法充電(11014)(FA-EN231218)",
-   "customer": "UU",
+   "owner": "UU",
    "severity": "輕微",
    "model": "DDYC362U0VE2UU",
    "productStatus": "營運中",
@@ -434,9 +427,7 @@
    "defectiveQuantity": 1,
    "usageTime": "保固內(N2234A001A1)",
    "dueDate": "2024/01/30",
-   "owner": "硬體",
-   "rootCause": "處理進度",
-   "detailedAnalysis": [
+   "rootCauseAnalysis": [
       {
          "action": "FAE現場更換RC板已讓能使用",
          "status": "已完成"
@@ -484,18 +475,16 @@
 }
 
 {
-   "issueDescription": "21.5’ 群創LCM螢幕黑屏&觸控不良",
-   "customer": "保時捷/Zerova RD",
+   "failureSymptom": "21.5’ 群創LCM螢幕黑屏&觸控不良",
+   "owner": "保時捷/Zerova RD",
    "severity": "Cri",
    "model": "DDYC36200VEFPS-RW",
    "productStatus": "運營中",
    "locations": ["台中霧峰", "台北新店", "林口總部"],
    "defectiveQuantity": 6,
    "usageTime": "DOA",
-   "dueDate": "",
-   "owner": "",
-   "rootCause": "處理進度",
-   "detailedAnalysis": [
+   "issueDate": "",
+   "rootCauseAnalysis": [
       {
          "issue": "黑屏",
          "cause": "圓美所使用的SOC芯片防護性不足，不堪使用者使用導致"
@@ -538,15 +527,14 @@
 }
 
 {
-   "issueDescription": "21.5“ LCM 黑屏",
-   "customer": "保時捷",
+   "failureSymptom": "21.5“ LCM 黑屏",
+   "owner": "保時捷",
    "severity": "嚴重",
    "model": "DDYC36200VEFPS-RW",
    "productStatus": "21.5“ LCM黑屏",
    "location": "保時捷_中部霧峰",
    "defectiveQuantity": 1,
-   "rootCause": "處理進度",
-   "detailedAnalysis": [
+   "rootCauseAnalysis": [
       {
          "situation": "LCM異常當時狀況",
          "details": "黑屏"
